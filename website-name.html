@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            * {
+                font-family: Courier, monospace;
+                padding: 5px;
+                margin: 1px;
+                border: 1px solid black;
+            }
+            p {
+                color: blueviolet;
+                font-size: 1.25em;
+                font-family: Courier, monospace;
+            }
+            .quoted {
+                font-weight: lightertext;
+                text-decoration: overline;
+                color: deeppink;
+            }
+            #topnav {
+                background-color: aquamarine;
+            }
+            #maincontent {
+                position: relative;
+                background-color: #ffb7b7;
+                width: 50%;
+            }
+            #rightnav {
+                position: relative;
+                top: -200px;
+                left: 80%;
+                height: 100px;
+                background-color: #b8b8b8;
+                width: 20%;
+            }
+            #tablestyle {
+                background-color: lavender;
+                width: 70%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topnav">
+            <h2 class="quoted">A header</h2>
+        </div>
+        <div id="maincontent">
+            <p>Here is a paragraph that I am writing</p>
+            <p>Paragraph 2!</p>
+            <ul>
+                <li><a href="www.pratt.edu">Item 1 </a></li>
+                <li>Item 2</li>
+            </ul>
+        </div>
+        <div>
+            <table id="tablestyle">
+                <tr>
+                    <td>Column 1</td>
+                    <td>Column 2</td>
+                    <td>Column 3</td>
+                </tr>
+                <tr>
+                    <td>Something</td>
+                    <td>Something else</td>
+                    <td>Blah</td>
+                </tr>
+            </table>
+        </div>
+        <div id="rightnav">
+            <p>Right navigation</p>
+            <p>More text</p>
+        </div>
+    </body>
+</html>
