@@ -53,7 +53,7 @@ td{
     left: 0%;
     position: fixed;
     padding-top: 4%;
-    padding-left: 3%;
+    padding-left: 5%;
     background-color: #977390;
     border-right: solid 20px;
     border-color: #785589;
@@ -73,7 +73,7 @@ td{
 }
 .navlink {
     font-family: Georgia;
-    font-size: 100%;
+    font-size: 110%;
     color: #ffcdcc;
     font-weight: 550;
 }
@@ -107,7 +107,7 @@ td{
     border-radius: 9%;
 }
 .sidebarimg {
-    width: 90%;
+    width: 80%;
     border-radius: 40%;
     border: solid 2px #ffe1f9;
 }
